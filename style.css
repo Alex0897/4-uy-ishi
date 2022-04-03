@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .card{
+    width: 400px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 0 30px;
+  }
+  
+  .cc {
+    transform: scale(1.1);
+  }
+  
+  .img {
+    background: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2lybCUyMGZhY2V8ZW58MHx8MHx8&w=1000&q=80) center no-repeat;
+    background-size:cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 90px;
+  }
+  
+  .about{
+    text-align: center;
+    padding: 30px; 
+  }
+  
+  .about > h2{
+    color: #567;
+    margin-bottom: 10px;
+  }
+  
+  .about{
+    margin: 10px 0 25px;   
+  }
+  
+  h1{
+      color: red;
+  }
+
+  p{
+      color: chocolate;
+  }
+
+  .imd{
+    background: url(https://avatanplus.com/files/effects/mid/5ec97aa011d5817243070149.jpg) center no-repeat;
+    background-size:cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 90px;
+  }
+
+  .imr{
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStPDqgPweAH05oZzsFPIoPve-CfdDJNzxleQ&usqp=CAU) center no-repeat;
+    background-size:cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 90px;
+  }
